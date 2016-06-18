@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"EncodingHelper",
+		"Handlebars",
+		"JsFormat",
+		"JSX",
+		"LESS",
+		"Markdown Preview",
+		"Pretty JSON",
+		"Razor",
+		"Spark"
+	]
+}
