@@ -1,0 +1,33 @@
+[user]
+	name = Matt Higgins
+	email = mhhiggins@gmail.com
+[diff]
+	tool = bc4
+	guitool = bc4
+[difftool "bc4"]
+	cmd = "C:/Program\\ Files/Beyond\\ Compare\\ 4/BComp.exe" "$LOCAL" "$BASE"
+[difftool]
+	prompt = false
+[merge]
+	tool = bc4
+[mergetool]
+	keepBackup = false
+[mergetool "bc4"]
+	cmd = "C:/Program\\ Files/Beyond\\ Compare\\ 4/BComp.exe" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+	keepTemporaries = false
+	trustExitCode = true
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	la = !git l --all
+	pick = cherry-pick -x
+	pop = stash pop
+	wdiff = diff --word-diff=color
+	ww = working-with
+[gui]
+	fontdiff = -family Consolas -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+	gcwarning = false
+[help]
+	autocorrect = 1
