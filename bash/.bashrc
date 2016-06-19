@@ -28,6 +28,7 @@ alias curl='curl -O'
 alias push='git push origin HEAD'
 
 export LESS="-Ri"
+export QUOTING_STYLE="literal"
 
 PS1='\[\e[1;31m\]\w\[\e[m\]\[\e[1;36m\]$(__git_ps1)\[\e[m\]
 $ '
