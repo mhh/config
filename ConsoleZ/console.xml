@@ -182,16 +182,19 @@
 	</mouse>
 	<tabs>
 		<tab title="bash" icon="C:\Program Files\ConsoleZ\Console.exe" use_default_icon="0">
-			<console shell="C:\Windows\System32\cmd.exe /C &quot;ansicon -p &amp;&amp; bash --login -i&quot;" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
+			<console shell="bash --login -i" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
 		</tab>
 		<tab title="bash (admin)" icon="C:\Program Files\ConsoleZ\Console.exe" use_default_icon="0">
-			<console shell="C:\Windows\System32\cmd.exe /C &quot;ansicon -p &amp;&amp; bash --login -i&quot;" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="1"/>
+			<console shell="bash --login -i" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="1"/>
 		</tab>
 		<tab title="cmd" icon="C:\Program Files\ConsoleZ\Console.exe" use_default_icon="0">
-			<console shell="ansicon" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
+			<console shell="cmd" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
 		</tab>
 		<tab title="cmd (admin)" icon="C:\Program Files\ConsoleZ\Console.exe" use_default_icon="0">
-			<console shell="ansicon" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="1"/>
+			<console shell="cmd" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="1"/>
+		</tab>
+		<tab title="bash (ansicon)" icon="C:\Program Files\ConsoleZ\Console.exe" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe /C &quot;ansicon -p &amp;&amp; bash --login -i&quot;" init_dir="%HOMEDRIVE%%HOMEPATH%" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
 		</tab>
 	</tabs>
 	<external_commands>
