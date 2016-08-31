@@ -25,7 +25,7 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_size": 18,
+	"font_size": 11,
 	"highlight_modified_tabs": true,
 	"trim_trailing_white_space_on_save": true
 }
