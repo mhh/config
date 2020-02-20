@@ -13,7 +13,8 @@
 # Windows configuration
 - Review privacy settings
 - Review feedback settings
-- Review installed applications
+- Review and remove unwanted pre-installed applications
+  - [Xbox Game Bar][xbox] and friends
 - Review Windows Security settings
   - Automatic sample submission
 - Review Windows Update settings
@@ -22,16 +23,20 @@
 
 # Software
 - [Chrome]
-  - default browser?
-  - [Ghostery][chrome-ghostery]
-  - [uBlock Origin][chrome-ublock]
-  - review settings
-    - disable _Allow Chrome sign-in_
-    - enable _Block third-party cookies_
+  - Default browser?
+  - Install essential extensions
+    - [Ghostery][chrome-ghostery]
+    - [uBlock Origin][chrome-ublock]
+  - Review settings
+    - Disable _Allow Chrome sign-in_
+    - Enable _Block third-party cookies_
     - On startup, _Continue where you left off_
 - [Visual Studio][vss-vs] Enterprise edition
 - [SQL Server][vss-sql] Developer edition
 - [Windows Terminal][terminal]
+- Office
+  1. [Generate a deployment template][odt-config] to exclude apps you don't need (e.g. Access, Skype)
+  2. Install with [Office Deployment Tool][odt]
 
 [vss-windows]: https://my.visualstudio.com/Downloads?q=Windows%2010
 [vss-vs]: https://my.visualstudio.com/Downloads?q=Visual%20Studio
@@ -42,3 +47,6 @@
 [chrome-ghostery]: https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij?hl=en
 [chrome-ublock]: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en
 [terminal]: https://github.com/microsoft/terminal
+[xbox]: https://gist.github.com/joshschmelzle/04c57d957c5bb92e85ae9180021b26dc
+[odt]: https://www.microsoft.com/en-us/download/details.aspx?id=49117
+[odt-config]: https://config.office.com/
