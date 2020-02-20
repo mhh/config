@@ -34,9 +34,13 @@
 - [Visual Studio][vss-vs] Enterprise edition
 - [SQL Server][vss-sql] Developer edition
 - [Windows Terminal][terminal]
+- [Git][git]
+- [PuTTY][putty]
+  - [Configure Pageant][pageant-config] to run on startup
 - Office
   1. [Generate a deployment template][odt-config] to exclude apps you don't need (e.g. Access, Skype)
   2. Install with [Office Deployment Tool][odt]
+
 
 [vss-windows]: https://my.visualstudio.com/Downloads?q=Windows%2010
 [vss-vs]: https://my.visualstudio.com/Downloads?q=Visual%20Studio
@@ -50,3 +54,6 @@
 [xbox]: https://gist.github.com/joshschmelzle/04c57d957c5bb92e85ae9180021b26dc
 [odt]: https://www.microsoft.com/en-us/download/details.aspx?id=49117
 [odt-config]: https://config.office.com/
+[git]: https://git-scm.com/download/win
+[putty]: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+[pageant-config]: https://gist.github.com/chunter/3ec25dd802c2163265eacfcb6f53cb7d
